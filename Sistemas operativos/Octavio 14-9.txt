@@ -43,3 +43,29 @@ y se asigna mas a medida que se lo necesita.
 
 si queremos hacer una maquina virtual desde 64xbit hay que configurar una habilitacion para hacerlo.
 ¿que mierda es un chipset?
+
+---linux---
+
+¿que es /dev/?
+--device--
+sda//sdb
+
+comandos linux $/ sudo fdisk /dev/sda-sdb
+i- info
+p- partition
+n- new partition (full enter)
+
+mkfs -- comando para formatear
+
+mount -- para montar disc
+
+df -h /dev/sdb1 -- 
+
+tipos de particiones
+-primarias 
+-extendidas
+-logicas
+
+du --- ve cuanto pesa un archivo
+
+echo --
