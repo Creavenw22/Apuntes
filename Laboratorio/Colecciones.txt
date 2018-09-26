@@ -1,0 +1,115 @@
+main
+{
+Program.MostrarColeccionesNoGenerics();
+}
+
+private static void MostrarColeccionesNoGenerics()
+{
+
+System.Collections.Stack pila = new System.Collection.Stack();
+pila.push(1);
+pila.push(2);
+pila.push(3);
+pila.push(4);
+
+Console.WriteLine(pila.Peek());
+}
+
+declarando elementos el la pila (stack) es como declarar un array normal pero ya con la logica preeterminada de una pila LIFO (last in first out)
+esto significa que a medida que ingresamos valores sistematicamente en 
+la pila se ingresaran al principio y no al final como en un array normal
+Tanto los metodos .Push() y .Pop() no reciben paraemtros por lo tanto
+entendemos que los elementos solo pueden ser ingresados y retirados en formato stack-pila osea LAST IN - FIRST OUT
+
+el metodo .Peek() agarra un elemento de la pila para su revision pero lo deja en su lugar
+
+el metodo .Pop() saca un elemento de la pila
+
+el metodo .Push() ingresa un elemento en la pila
+
+el metodo .Count() regresa la cantidad de elementos en la pila (parecido al length?) ACTUALES
+
+
+Al igual que Collections.Stack, Collections.Queue es un array de manejo logico ya programado, del tipo FIFO (FIRST IN, FIRST OUT) de esta manera
+los metodos inherentes no reciben parametros porque solamente se pueden agregar y quitar elementos de las posiciones designadas
+
+System.Collections.Queue cola = new System.Collections.Queue();
+cola.ENqueue(1);
+cola.ENqueue(2);
+cola.ENqueue(3);
+cola.ENqueue(4);
+
+
+el metodo .Enqueue() ingresa elementos a la cola
+
+el metodo .Dequeue() saca elementos de la cola
+
+el metodo .Count() regresa la cantidad de elementos ACTUALEs que hay en la cola
+
+
+Collections.ArrayList() es el array lsit que habiamos visto en en el cuatrismestre pasado, se pueden agregar elementos tanto al principio como en el medio como al final y asi mismo se pueden quitar haciendo un rezise automatico de la coleccion
+
+System.Collections.ArrayList vec = new System.Collections.ArrayList();
+vec.Add(1);
+vec.Add(2);
+vec.Add(3);
+vec.Add(4);
+
+el metodo .Sort() ordena los elementos del ArrayList siempre y cuando el array sea de tipos de datos nativos
+
+el metodo .Reverse() ordena los elementos como .Sort() pero al reves
+
+el metodo .Add() 
+
+el metodo .Insert() ingresa un elemento en un indice determinado y hace rezise de todo lo demas
+
+
+En una HashTable los elementos tienen un valor y una clave. Dentro de la coleccion la clave NUNCA puede repetirse, debe ser unica, aunque los valores pueden ser repetidos
+
+Systems.Collections.Hashtable ht = new System.Collections.Hashtable();
+ht.Add(1, "valor 1"); <---- el primer elemento es la clave y el segundo es el valor
+ht.Add(2, "valor 2");
+ht.Add(3, "valor 3");
+ht.Add(4, "valor 4");
+
+
+
+Tanto la pila, como la cola y el arraylist, los tres reciben OBJETCS por eso se llaman colecciones no genericas. Los add pueden recibir cualquier cosa
+
+
+
+
+
+---COLECCIONES GENERICAS---
+using System.Collections.Generic
+
+
+
+Dictionary<int, Persona> diccionario = new Dictionary<int, Persona>();
+
+Persona personita = new Persona("Franas","La ranas",345235);
+
+diccionario.Add(1,personita);
+diccionario.Add(2,New Persona("Agus","El loco",352545));
+
+
+
+List<Persona> lista = new List<Persona>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
