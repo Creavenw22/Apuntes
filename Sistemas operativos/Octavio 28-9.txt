@@ -24,7 +24,7 @@ Montados en 6 carpetas en /Home
 Una vez creados los discos "Fisicos" hay que crear las particiones con, por ejemplo para crear
 las particiones de sdb ---> "sudo fdisk /dev/sdb"
 
-Una vez dentro con el comando 'n' hacemos "New partition" para asignarle un tamaño de 2Gib a sdb1, en "last sector" ponemos
+Una vez dentro con el comando 'n' hacemos "New partition" para asignarle un tamaÃ±o de 2Gib a sdb1, en "last sector" ponemos
 "+2G" y se le asignaran 2Gib
 
 Repetimos el proceso para sdb2.
@@ -113,12 +113,12 @@ drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Documentos
 -rw-rw-r-- 1 alumno alumno    18 sep 28 12:01 ejecutor
 drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Escritorio
 -rw-rw-r-- 1 alumno alumno     0 sep 28 11:11 foto.jpg
-drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Imágenes
-drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Música
+drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 ImÃ¡genes
+drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 MÃºsica
 lrwxrwxrwx 1 alumno alumno     8 sep 28 10:04 nuevo.txt -> otro.txt
 drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Plantillas
-drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Público
-drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 Vídeos
+drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 PÃºblico
+drwxr-xr-x 2 alumno alumno  4096 nov 30  2016 VÃ­deos
 
 La primer cadena de texto son los permisos de administracion del archivo.
 
@@ -132,6 +132,8 @@ chmod xxx archivo //este comando administra los permisos de manera binaria. Ento
 cada paquete de 3 numeros binarios, donde 7 es un permiso total porque es RWX = 111 osea R=1 W=1 X=1, esto significa que este tipo de usuario puede tanto leer
 como modificar y ejecutar este archivo. Si quiero que un usuario pueda leer y ejecutar un archivo pero no modificarlo tengo que ponerle de valor 5, porque 5
 es 101 entonces R=1, W=0, X=1 entonces los permisosno habilitan la escritura del archivo para determinado usuario.
+
+Una vez que tenemos los permisos de ejecucion de un archivo/comando, podemos hacerlo de la siguiente forma "./archivo".
 
 
 Temas de parcial
