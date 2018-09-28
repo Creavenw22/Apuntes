@@ -1,0 +1,6 @@
+Hacer 3 discos rigidos
+-5gb
+-6gb
+-7gb
+
+6 particiones
