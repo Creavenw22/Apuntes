@@ -1,0 +1,82 @@
+Herencia
+
+Sintaxis:
+
+class Class2 : Class1 
+
+^
+|
+Aca la Class2 hereda de Class1
+
+
+3er modificador: PROTECTED
+todo miembro definido con protected se podra acceder desde la clase definida o desde las clases heredadas pero por fuera de la relacion sera privado.
+
+PRIVATE:
+Todo miembro declarado en una clase padre con PRIVATE no puede ser accedido desde las clases heredadas aunque SI forma parte de ellas.
+
+OBJETOS:
+Los objetos no pueden acceder a los metodos privador ni protegidos de la relacion de herencia por mas que sean del mismo tipo. 
+Una vez instanciada la clase Class1 en un objeto, este mismo no podra acceder a los miembros protegidos o privados de la relacion.
+
+Visibilidad:
+La clase padre siempre sera la clase mas accesible de la relacion.
+Si la clase padre es privada, las clases derivadas seran privadas.
+Si la clase padre es publica, las clases derivadas pueden ser publicas o privadas.
+
+Me colgue pensando en Ricardo Fort bailando musica brazilera.
+
+Constructores:
+Cada clase miembro de la relacion de herencia debera tener su propio constructor.
+
+public Class2(String c1, String c2, String c3):base(c2,c1)
+{
+	this.cadena = c3;
+}r
+
+asi se hace una sobrecarga, llamando a los miembros de la clase que heredo a class2, con el base despues de la declaracion de parametros. 
+
+Todos los constructores deben hacer un llamado al constructor de su inmeadito superior de la relacion de herencia, osea que todos los miembros deben tener un
+constructor explicito que llame al miembro superior.
+
+
+4to MODIFICADOR: SEALED
+
+Una sealed class es una clase de la cual no se permite derivar nada.
+Una razon para esto es para marcar la intencion al compilador y a otros programadores que x clase no esta hecha para derivar nada.
+Un ejemplo de clase sellada es System.String que no puede heredar nada.
+
+
+
+----POLIMORFISMO----
+
+¿Que es polimorfismo?
+Es la propiedad que permite tratar a objetos diferentes de la misma forma.
+El polimorfismo tiende a exisitir en las relaciones deherencia.
+
+Metodos VIRTUAL - OVERRIDE
+La invocacion es resuelta en tiemp de ejecucion.
+Los metodos que yo quiero que se puedan  llegar a modificar en tiempo de ejecucion en mis clases derivadastienen que tener el modificador VIRTUAL
+Y los que quiero que sean modificados en las clases derivadas, llevan el override.
+
+El polimorfismo (APLICA SOLO PARA METODOS/PROPIEDADES) implica la definicion de metodos y/o propiedades en una clase, mediante el uso
+de la palabra reservada VIRTUAL y sobreescribirlos con nuevas implementacion en clases derivadas con la palabra reservada OVERRIDE.
+Los nombres de los metodos y properties deberan tener el mismo nombre.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
