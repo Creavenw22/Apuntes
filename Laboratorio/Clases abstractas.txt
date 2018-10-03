@@ -1,0 +1,7 @@
+----CLASES ABSTRACTAS----
+
+Son un tipo especial de clases basicas.
+Ademas de miembros de clase normales, poseen miembos de clase abstractos, que son metodos y propiedades que se declaran SIN IMPLEMENTACION.
+TOdas las clases que derivan o heredan directamante de clases abstractas deben implementar esos metodos y propiedades abstractos.
+Las clases abstractas NO PUEDEN SER INSTANCIADAS.
+
