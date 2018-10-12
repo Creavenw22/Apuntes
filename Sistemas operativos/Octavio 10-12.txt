@@ -1,0 +1,42 @@
+Grandes clasificaciones de archivos
+-Estaticos
+||
+-Dinamicos
+&&
+-Compartidos
+||
+-Privados
+
+Repasar comandos:
+-more 
+-less
+-fdisk
+-mkfs
+-chmod
+-chown
+-ls
+
+-----Repositorios / Paquetes --------
+
+Los repositorios son grupos de paquetes.
+Un repositorio es una "bodega" donde se encuentran los paquetes a instalar en cualquier
+distribución. Por lo general, los repositorios son servidores ftp o http (aunque también pueden
+ser locales) en donde se encuentran todos los paquetes disponibles para una distribución. Se
+habla de “paquetes” en vez de “programas”, porque un paquete no necesariamente contiene
+un programa. Un paquete puede contener imágenes, librerías, código fuente, documentación,
+traducciones y desde luego programas.
+Cada paquete de un repositorio de va actualizar si el repositorio dice que hay una nueva
+version o mejor.
+Para mas informacion, ver el pdf.	
+
+Palabras clave pikantovich:
+-rpm
+-.deb
+-apt
+-aptitude
+-yum 
+
+todos estos comandos hacen lo mis mo que es actualziar las bases de datos de repositorios y paquetes
+para que el sistema que los este usando.
+
+Cuando yo ejecuto un apt o un .deb estoy bajando un paquete. Un paquete que puede ser una libreria, un programa, carios o ninguno.
