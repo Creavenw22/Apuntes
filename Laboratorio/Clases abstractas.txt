@@ -5,3 +5,15 @@ Ademas de miembros de clase normales, poseen miembos de clase abstractos, que so
 TOdas las clases que derivan o heredan directamante de clases abstractas deben implementar esos metodos y propiedades abstractos.
 Las clases abstractas NO PUEDEN SER INSTANCIADAS.
 
+Las clases abstractas se situan en la cima de la jerarquia de clases.
+Establecen la estructura y significado del codigo.
+Facilitan la creacion de marcos de trabajo, esto es posible ya que las clases abstractas poseen una informacion clave para la derivacion de clases hijas.
+
+Para determinar una propiedad abstracta, lo declararemos pero no lo implementaremos.
+
+Cuando una clase derivada hereda un metodo abstracto, lo debe implementar OBLIGATORIAMENTE.
+Por definicion los metodos abstractos son virtuales pero no pueden estar marcados como virtuales explicitamente.
+Los metodos abstractos deben estar declarados en clases abstractas.
+Los metodos viruales poseen implementacion en clase base, pero los abstractos NO DEBEN ser implementados en la clase base.
+
+Es necesario implementario un metodo abstracto en una clase derivada, no asi un metodo virtual.

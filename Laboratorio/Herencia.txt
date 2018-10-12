@@ -1,4 +1,4 @@
-Herencia
+----Herencia----
 
 Sintaxis:
 
@@ -48,20 +48,7 @@ Un ejemplo de clase sellada es System.String que no puede heredar nada.
 
 
 
-----POLIMORFISMO----
 
-¿Que es polimorfismo?
-Es la propiedad que permite tratar a objetos diferentes de la misma forma.
-El polimorfismo tiende a exisitir en las relaciones deherencia.
-
-Metodos VIRTUAL - OVERRIDE
-La invocacion es resuelta en tiemp de ejecucion.
-Los metodos que yo quiero que se puedan  llegar a modificar en tiempo de ejecucion en mis clases derivadastienen que tener el modificador VIRTUAL
-Y los que quiero que sean modificados en las clases derivadas, llevan el override.
-
-El polimorfismo (APLICA SOLO PARA METODOS/PROPIEDADES) implica la definicion de metodos y/o propiedades en una clase, mediante el uso
-de la palabra reservada VIRTUAL y sobreescribirlos con nuevas implementacion en clases derivadas con la palabra reservada OVERRIDE.
-Los nombres de los metodos y properties deberan tener el mismo nombre.
 
 
  

@@ -12,3 +12,4 @@ Y los que quiero que sean modificados en las clases derivadas, llevan el overrid
 El polimorfismo (APLICA SOLO PARA METODOS/PROPIEDADES) implica la definicion de metodos y/o propiedades en una clase, mediante el uso
 de la palabra reservada VIRTUAL y sobreescribirlos con nuevas implementacion en clases derivadas con la palabra reservada OVERRIDE.
 Los nombres de los metodos y properties deberan tener el mismo nombre.
+
