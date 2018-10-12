@@ -1,4 +1,4 @@
-Grandes clasificaciones de archivos
+﻿Grandes clasificaciones de archivos
 -Estaticos
 ||
 -Dinamicos
@@ -36,7 +36,44 @@ Palabras clave pikantovich:
 -aptitude
 -yum 
 
+-----En clase usamos los subcomandos de apt-----
+
+Comandos:
+sudo apt-get update
+sudo apt-get check
+sudo apt-get upgrade
+sudo apt-get install -f (el -f baja e installa todas las dependencias)
+sudo apt-get install --reinstal 
+sudo apt-get remove
+sudo apt-get purge
+sudo apt-get clean
+sudo apt-get autoclean
+sudo apt-get autoremove
+
 todos estos comandos hacen lo mis mo que es actualziar las bases de datos de repositorios y paquetes
 para que el sistema que los este usando.
 
 Cuando yo ejecuto un apt o un .deb estoy bajando un paquete. Un paquete que puede ser una libreria, un programa, carios o ninguno.
+
+Cuandoentramos en /etc/apt/ encontramos las /source.list/ donde podemos agregar o modificar listas de donde el comando agarra los repositorios para actualizar.
+
+En /var/lib/ estan todas las librerias de todos los comandos que solemos usar, por ejemplo /apt. Lo que hacemos cuando hacemos cuando hacemos apt-update es venir a estos directorios y lo que va a hacer es bajar los paquetes espicificados en las source.list en el subdirectorio lists/
+
+aca hacemos en orden apt-get check para ver si hya paquetes actualizados y estan correctas las listas
+despues apt-get update/upgrade
+
+-mc es el norton comander (Sirve para interactuar entra directorios)
+
+para resintalar hacemos sudo apt-get install --reinstall mc
+
+desinstalar sudo apt-get remove mc
+
+/var/cache/apt/archives contiene los archivos instalables del o los programas que queriamos installar cuando hicimos get update. Una vez instalamos los archivos deberiamso borrar estos archivos porque es como conservar el instalador de un programa que ya instalamos y esta ocupando espacio.
+
+-clean      |
+-autoclean  | Comandos que limpian las dependencias y cache de un programa borrado anteriormente
+-autoremove |
+
+sudo apt-cache search [nombrepaquete] 
+sudo apt-cache policy [nombrepaquete]
+sudo apt-cache showpkg [nombrepaquete]
