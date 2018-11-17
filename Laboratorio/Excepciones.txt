@@ -1,0 +1,23 @@
+----Excepciones----
+
+El objeto ecxeption:
+Todas las excepciones derivan de la clase Exception.
+Cada clase de excepcion es desriptiva y representa un error convreto de forma clara y evidente.
+
+
+Try-Catch:
+Los bloques try-catch son la solucion que ofrece la orientacion a objetos a los problemas de tratamiento de errores.
+La idea consiste en separar las instrucciones basicas de lprograma para el flujo de control normal de las instrucciones para tratamientos de errores.
+
+Bloque try:
+El bloque tri contiene una expresion que, se sabe, es propensa a generar una excepcion.
+En caso de que el bloque try genere una esperada exception, elruntime empiezaa buscar inmediatamente un bloque catch, en absolutamente todo el programa, si no se encuentra, se cierra el programa.
+
+Bloque catch:
+Tiene como parametro un tipo de exception osea un derivado de la clase exception. Luego del parametro se pasara a un blque de codigo el que intentara el manejo del
+error.
+
+Instruccion Throw:
+
+
+Bloque Finally:

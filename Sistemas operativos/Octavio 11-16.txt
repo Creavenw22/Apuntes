@@ -1,0 +1,9 @@
+
+---Usuarios y permisos---
+
+Clase enfocada a comandos.
+Hay que brindar la seguridad a los subdirectorios para que los puedan modificar solo las personas que tengan los permisos.
+Los usuarios estan organizados en grupos. 
+Los grupos, van a tener sus propios permisos, asi mismo los usuarios de los grupo tambien van a tener sus propios permisos, ya que un usuario puede formar parte de varios grupo.
+Esto establece que cuando viene un nuevo usuario a un grupo de trabajo solo se le asignan los grupos a los que pertenece con sus pertinentes permisos.
+

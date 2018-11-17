@@ -1,0 +1,61 @@
+------inteligencia artificial-----
+
+----Tecnicas empleadas para simular la ilusion de inteligencia artifical-----
+
+
+--unreal tournament bot vs quake 3 bot--
+
+maquinas de estado:
+si un bot esta en modo patrulla deberia estar pasivo hasta que ve aun enemigo y empieza el chase. Esos modos se llaman pseudo inteligencia
+
+algo de trees:
+
+
+path finding:
+el bot encontrara el camino entre un punta A y un punto B
+
+---algoritmos geneticos y redes nuronales----
+
+algoritmos geneticos:
+basicamente simulan tratan de resolver una tarea y premian a alos bot por mejor resolucion y generan una herncia donde despues tendremos otra generacion de bots que seran mejor
+
+redes neuronales:
+trata de emular un cerebro, ante ciertos estimulos sensoriales se programa un algoritmo que aprende por si solo a compartarse como un pseudo IA
+
+---Implementacion en Unity---
+Juego de tanques.
+IA Estado Idle: No hace nada porque no hay nada para hacer    |
+IA Estado Chase: En contacto/insight la IA persigue al player |Maquina de estados
+IA Estado Attack: En rango/in range la IA ataca al jugador    |
+
+Declaramos una matriz de estados en base al compartimiento que queremos generar y despues con un switch evaluamos los estados y ejecutamos las acciones/funciones que desarrollan el comportamiento.
+
+finit state machine - c# class
+
+ex:
+public class FSM 
+{
+	int [,] fsm;
+	int currentState;
+
+	public FSM(int statesCount, int evensCount, int initState)
+	{
+		fsm new int[statesCount,EvenstCount];
+		
+		for(init i=0;i<statesCount;i++)
+	}
+}
+
+
+
+---GOAP goal oriented action planing---
+Las transiciones se generan en el orden que s equieren las cosas para llegar a un estado de goal
+
+
+logica difusa --- difusa
+
+---Queue learning---
+
+
+
+rts --- mezcla entre utta y GOAP

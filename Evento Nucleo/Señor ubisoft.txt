@@ -1,0 +1,79 @@
+Pablo Toscano - Ubisoft 
+
+Desafios, Gestion de Produccion y Control de Calidad de AC Odissey.
+
+El teaser es todo in-game,800 personas durante 3 años lograron esto.
+
+¿Porque grecai ahora y no antes?
+antes no habia la tecnologia necesatia para emular la grecaia antigua en toda su magnitud
+
+Biomas
+Grecia tiene una SUPER amplia cantidad de biomas.
+
+La hisoria como eje de la experiencia:
+Es importante que el jugador pueda plantarse en la historia como un transeunte mas del contexto historico.
+Se tiene que hacer un esfuerzo tremendo en tratar de que el usuario vivia la experiencia lo mas acertada a como era en su momento.
+
+Calidad:
+/50%/   	/ 30% /  	/ 15% /  	/ 5% / <----- Division de calidad de un 100%
+Alfa		 Beta		Release 		<---- Definir claramente la calidad de la produccion
+
+Benchmark
+Es un modelo a segui en referencia ala produccion de un elemnto en particular.
+Su proposito es poder deconstruir grandes porciones de trabajo en tareas sencillas y faciles de alcanzar. 
+Ese modelo que se tiene en cuenta para llegar a completar esa tarea sencilla se llama benchmark
+
+¿Cada cuanto se setea un benchmark?
+Lo imporante no es el tiempo, sino tratar de completar cada modelo lo antes posible.
+
+Tiempo de Produccion:
+/50%/   	/ 30% /  	/ 15% /  	/ 5% / <----- Division tiempo en relacion a la calidad
+Alfa		 Beta		Release 		<---- Momento en el tiempo
+
+Una de las cosas que mas se tienen en cuenta a la hora de tomar a una persona para un trabajo es ver la calidad de detalle que alcance en una gran produccion.
+El 50% es muy facil de lograr, y se puede hacer muy rapido, aunque sea la mayor porcion del trabajo, pero solo los mas habiles logran un gran nivel de detalle.
+Son los detalles los que nos hacen llegar a la gran mayoria de trabajos. Las companias quieren el potencial, si bien uno pouede haber llegado al cien por ciento, siempre alguien con mas experiencia puede ver cierto potenicial desarrollable.
+
+El maximo cuidado tiene que estar en la primer mitad de un proyecto porque cualquier cambio que se haga en la base del proyecto afectara los detalles.
+
+
+Una vision clara desde el principio de la produccion, es clave para la priorizacion de tareas.
+
+Guerra del Peloponeso (Esparta vs Atenas):
+Batallas epicas que influyen en el desarrollo de la hstoria.
+
+Sistema de batallas epicas:
+Validacion y seguimiento de performance desde el comienzo de la produccion.
+Osea ir testeando toda la performance para ver si se ajusta a los recursos fisicos utilizables.
+
+Regreso de sistema naval.
+
+-Explorar y combatir de forma transparente	|	La mecanica de las batallas navales se apoya mucho mas en la tripulacion que en la nave por la falta de
+-Reclutar tu tripulacion			|   	teconologia. 
+-Personalizar tu barco				|
+
+
+Playtest: Seguimiento estrategico del contenido de produccion.
+Es importante saber el impacto del contenido desarrollado en la gente, para saber si estas cerca de lograr la emocion que queres generar en el usuario del proyecto.
+Y esto, en cualquier estado de la produccion, es importante el seguimiento constante desde la mirada del usuario.
+Pregunta clave ¿A quien quiero hacerle sentir algo?
+
+----¿Como consiguen a la gente para el playtest?----
+
+
+Vivir -TU- odisea
+Hace referencia a la personalizacion de la historia.
+
+Tener en claro un modelo para poder ir confirmando ideas mas que ir resolviendo cosas sobre la marcha, ahorra mucho tiempo y agranda la calidad final.
+
+Elegir como base una experiencia mas rica  profunda:
+-Mas 
+
+
+TESTING:
+Lo que mas se aprecia es la comunicacion y el precoso de inmersion y la metodicidad
+Se encuentran como cualquier trabajo normal
+
+
+
+

@@ -77,3 +77,8 @@ desinstalar sudo apt-get remove mc
 sudo apt-cache search [nombrepaquete] 
 sudo apt-cache policy [nombrepaquete]
 sudo apt-cache showpkg [nombrepaquete]
+
+
+-----DPKG-----
+
+

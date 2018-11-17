@@ -1,0 +1,49 @@
+Pablo Toscano - Ubisoft 
+
+---Proceso de desarrollo del sistema interactivo de dialogo---
+
+Francois Paradis - Jefe de programacion
+PIerre Michaud - Jefe de camaras
+
+Indice
+-Caracteristicas de la produccion
+-metodologia de trabajo
+-Generacionm procedural de contenido
+-edicion de contenido
+
+
+Palabras clave: 
+-Procedural <--- Investigar esta mierda
+-Staging
+-Camaras
+-Meta data
+
+
+
+--Poder de decision, como base de desarrollo--
+
+Sistema de texto - Oasis -- Viejo: Escritores // nuevo: diseñador de narrativa
+ 
+Motor de juego - Anvil -- Diseñador de misiones/Cinematicas
+
+Oasis posee una linea de montaje para adecuar los textos a las elecciones de el jugador para seguir una linea historica adecuada a estas.
+
+Sphinx - traduce texto a fonemas. Sirve para la animación del diálogo.
+
+Diálogos procedurales e iterativos - input, revision, nuevo input....
+
+
+--Generacion procedural de contenido--
+
+-Siempte funcional -Que las historas puedan cambiar pero que el juego siga funcionando normalmente, no importa que se agregue, debe adaptarse correctamente
+-Inspiracion -Que los escritores y diseñadores puedan hacer lo que quisieran
+-Herramientas -Que si se quisiera modificar algo se pudiese hacer algo con libertad
+-Cantidad de contenido -Que se cumpla la cantidad de contenido pedido ex:30hs de cinematicas
+
+¿Procedural == programador? Masomenos, tiene mucha arte.
+
+Staging:
+Sistema de seleccion de slots para la seleccion de camara para cinematicas.
+
+
+
